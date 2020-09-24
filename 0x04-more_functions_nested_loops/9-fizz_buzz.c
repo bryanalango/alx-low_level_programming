@@ -24,6 +24,9 @@ int main(void)
 		{
 			printf("Buzz");
 		}
+		else
+			printf("%d", multiples);
+
 		if (multiples < 100)
 		{
 			putchar(' ');
