@@ -27,7 +27,7 @@ int main(void)
 		if (multiples < 100)
 		{
 			putchar(' ');
-			multiples++;
+
 		}
 
 	}
