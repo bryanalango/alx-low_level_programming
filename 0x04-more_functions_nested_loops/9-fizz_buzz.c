@@ -24,7 +24,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		while (multiples <= 100)
+		if (multiples < 100)
 		{
 			putchar(' ');
 			multiples++;
