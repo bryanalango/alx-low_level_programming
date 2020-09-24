@@ -1,7 +1,7 @@
 # include "holberton.h"
 
 /**
- * void more_numbers(void) - Entry Point. Prints numbers from 0 -14 ten times
+ * more_numbers - Entry Point. Prints numbers from 0 -14 ten times
  * @counter - Line Counter
  * @number - First iteration
  * @number_1 - Second Iteration
