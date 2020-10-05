@@ -1,1 +1,1 @@
-The directory will look into more pounters and memory management, arrays, and strings
+The directory will look into more pointers and memory management, arrays, and strings
