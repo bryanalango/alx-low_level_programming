@@ -10,6 +10,7 @@
 void swap_int(int *a, int *b)
 {
 	int temp;
+	int array[];
 
 	temp = *a;
 	*a = *b;

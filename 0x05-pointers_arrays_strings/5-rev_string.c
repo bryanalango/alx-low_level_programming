@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * rev_string - Entry point. Reverses a string
@@ -16,13 +17,23 @@ void rev_string(char *s)
 	{
 		f++;
 	}
-	f--;
+	f-=1;
 
-	for (b = 0; f > b; b++, f--)
+	for (b = 0; b < f; b++)
 	{
 		temp = s[f];
 		s[f] = s[b];
 		s[b] = temp;
 	}
 
+}
+
+int main(void)
+{
+    char s[10] = "Holberton";
+
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+    return (0);
 }
