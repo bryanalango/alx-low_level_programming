@@ -6,7 +6,7 @@
   * @b: amount of memory of the array.
   * Return: allocated pointer in the memory..
   */
-  
+
 void *malloc_checked(unsigned int b)
 {
 	void *p;
