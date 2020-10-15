@@ -7,13 +7,13 @@
  */
 int _strlen(char *s)
 {
-	int a;
+	int i;
 
-	for (a = 0; s[a] != '\0';)
+	for (i = 0; s[i] != '\0';)
 	{
-		a++;
+		i++;
 	}
-	return (a);
+	return (i);
 }
 /**
  * string_nconcat - concatenate two strings.
