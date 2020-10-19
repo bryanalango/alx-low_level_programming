@@ -1,7 +1,7 @@
 #0x0E-structures_typedef
 
-dog.h
 <hr>
+dog.h <br>
 Define a new type struct dog with the following elements:<br>
 <ul>
 <li>name, type = char * </li>
@@ -9,16 +9,16 @@ Define a new type struct dog with the following elements:<br>
 <li>owner, type = char * </li>
 </ul>
 
-1-init_dog.c
 <hr>
+1-init_dog.c<br>
 Write a function that initialize a variable of type struct dog<br>
 <ul>
 <li>Write a function that initialize a variable of type struct dog</li>
 <li>Prototype: void init_dog(struct dog *d, char * name, float age, char *owner);</li>
 </ul>
 
-2-print_dog.c
 <hr>
+2-print_dog.c<br>
 Write a function that prints a struct dog<br>
 <ul>
 <li>Prototype: void print_dog(struct dog * d);</li>
@@ -27,14 +27,14 @@ Write a function that prints a struct dog<br>
 <li>If d is NULL print nothing.</li>
 </ul>
 
-dog.h
 <hr>
+dog.h<br>
 <ul>
 <li>Define a new type dog_t as a new name for the type struct dog</li>
 </ul>
 
-4-new_dog.c
 <hr>
+4-new_dog.c<br>
 <ul>
 <li>Write a function that creates a new dog.</li>
 <li>Prototype: dog_t *new_dog(char *name, float age, char * owner);</li>
@@ -42,8 +42,8 @@ dog.h
 <li>Return NULL if the function fails</li>
 </ul>
 
-5-free_dog.c
 <hr>
+5-free_dog.c<br>
 <ul>
 <li>Write a function that frees dogs.</li>
 <li>Prototype: void free_dog(dog_t * d);</li>
